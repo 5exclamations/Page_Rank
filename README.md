@@ -15,10 +15,10 @@ rank<br /><br />
 The program understand and correctly interprete the following command line options:
 $ ./ pagerank -h
 Usage : ./ pagerank [ OPTIONS ] ... [ FILENAME ]
-Perform pagerank computations for a given file in the DOT format<br />
+Perform pagerank computations for a given file in the DOT format<br /><br />
 
--h Print a brief overview of the available command line parameters
--r N Simulate N steps of the random surfer and output the result
--m N Simulate N steps of the Markov chain and output the result
--s Compute and print the statistics of the graph as defined
- -p P Set the parameter p to P%. ( Default : P = 10)
+-h Print a brief overview of the available command line parameters<br />
+-r N Simulate N steps of the random surfer and output the result<br />
+-m N Simulate N steps of the Markov chain and output the result<br />
+-s Compute and print the statistics of the graph as defined<br />
+ -p P Set the parameter p to P%. ( Default : P = 10)<br />
