@@ -1,0 +1,20 @@
+struct graph parse_graph(char* file_adr);
+extern int size_of;
+void free_memory(struct graph newGraph);
+typedef struct graph{
+    char** vertices;
+    char** in;
+    char** out;
+    int number_of_in;
+    int number_of_out;
+    int number_of_edges;
+    int number_of_vertices;
+    char identificator[512];
+    int in_degree_max;
+    int in_degree_min;
+    int out_degree_max;
+    int out_degree_min;
+    int** destination;
+    int* number_of_destinations;
+}graph;
+int check_dot(const char *adress);

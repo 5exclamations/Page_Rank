@@ -1,0 +1,1 @@
+int statistics(struct graph newGraph);
